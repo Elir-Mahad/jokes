@@ -1,5 +1,5 @@
 import { NavigationContainer } from "@react-navigation/native";
-import TabsNav from "./navigaton/TabsNav";
+import TabsNav from "./navigation/TabsNav";
 
 export default function App() {
   return (

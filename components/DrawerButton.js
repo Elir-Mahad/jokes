@@ -5,7 +5,7 @@ import {
   DrawerItemList,
 } from "@react-navigation/drawer";
 
-const DrawerButton = () => {
+const DrawerButton = (props) => {
   return (
     <DrawerContentScrollView {...props}>
       <DrawerItemList {...props} />

@@ -7,9 +7,14 @@ import {
 
 const DrawerButton = () => {
   return (
-    <View>
-      <Text> Drawer button</Text>
-    </View>
+    <DrawerContentScrollView {...props}>
+      <DrawerItemList {...props} />
+      <Button
+        //
+        title="show me a joke"
+        onPress={() => alert("Link to help")}
+      />
+    </DrawerContentScrollView>
   );
 };
 

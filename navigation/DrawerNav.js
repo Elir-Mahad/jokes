@@ -1,5 +1,7 @@
 import React from "react";
-import { View, Text } from "react-native";
+import TabsNav from "./TabsNav";
+import { createDrawerNavigator } from "@react-navigation/drawer";
+import DrawerButton from "../components/DrawerButton";
 
 const DrawerNav = () => {
   return (

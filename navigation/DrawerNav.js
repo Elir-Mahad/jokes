@@ -3,11 +3,16 @@ import TabsNav from "./TabsNav";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import DrawerButton from "../components/DrawerButton";
 
+const Drawer = createDrawerNavigator();
+
 const DrawerNav = () => {
   return (
-    <View>
-      <Text>Drawer nav</Text>
-    </View>
+    <Drawer.Navigator
+      initialRouteName="Home"
+      drawerContent={(props) => <DrawerButton {...props} />}
+    >
+      <Drawer.Screen name="Home" component={TabsNav} />
+    </Drawer.Navigator>
   );
 };
 

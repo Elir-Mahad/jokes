@@ -76,7 +76,7 @@ const DrawerButton = (props) => {
   }
   //
   const sendPush = () => {
-    //
+    schedulePushNotification(jokeSetup, jokeDelivery);
   };
   //
   return (

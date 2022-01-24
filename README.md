@@ -1,4 +1,16 @@
-# Jokes react navigation expo app
+# Jokes expo app
+
+I've separated the app components into 2 folders. The navigation folder contains the react navigations screens. The components folder contains all the non navigation components. E
+
+    App
+    DrawerNav
+    DrawerButton
+    TabsNav
+    Tab1
+    Tab2
+    FullJoke
+
+Some of our components are nested within other components, so let's breakdown what the component hierarchy would look like. This will help us better understand the flow of data through the application.
 
 ### Success criteria:
 
@@ -11,7 +23,7 @@
 
 - [ ] Please upload your project to GitHub and share the link once completed. 
 
-- [ ] Feel free to take this further in any way you see fit (e.g. filters, etc.).
+- [ ] Bonus: Feel free to take this further in any way you see fit (e.g. filters, etc.).
 
 
 ### Assumptions:

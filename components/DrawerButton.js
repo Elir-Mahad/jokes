@@ -27,7 +27,15 @@ const DrawerButton = (props) => {
   const [jokeSetup, setJokeSetup] = useState("");
   const [jokeDelivery, setJokeDelivery] = useState("");
   //
-
+  const getJoke = () => {
+    Axios.get("https://v2.jokeapi.dev/joke/any?type=twopart").then(
+      (response) => {
+        setJokeSetup(response.data.setup);
+        setJokeDelivery(response.data.delivery);
+      }
+    );
+  };
+  //
   return (
     <DrawerContentScrollView {...props}>
       <DrawerItemList {...props} />

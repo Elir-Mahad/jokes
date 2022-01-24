@@ -64,6 +64,17 @@ const DrawerButton = (props) => {
     };
   }, []);
   //
+  async function schedulePushNotification(jokeSetup, jokeDelivery) {
+    await Notifications.scheduleNotificationAsync({
+      content: {
+        title: jokeSetup,
+        body: jokeDelivery,
+        data: { data: "goes here" },
+      },
+      trigger: { seconds: 2 },
+    });
+  }
+  //
   return (
     <DrawerContentScrollView {...props}>
       <DrawerItemList {...props} />

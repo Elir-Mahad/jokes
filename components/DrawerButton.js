@@ -102,11 +102,7 @@ const DrawerButton = (props) => {
   return (
     <DrawerContentScrollView {...props}>
       <DrawerItemList {...props} />
-      <Button
-        //
-        title="show me a joke"
-        onPress={() => alert("Link to help")}
-      />
+      <Button title="Show me a joke" onPress={getJokeSendPush} />
     </DrawerContentScrollView>
   );
 };

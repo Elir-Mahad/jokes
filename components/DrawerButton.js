@@ -1,5 +1,6 @@
-import React from "react";
-import { Button } from "react-native";
+import React, { useState, useEffect, useRef } from "react";
+import { Button, Platform } from "react-native";
+//
 import {
   DrawerContentScrollView,
   DrawerItemList,

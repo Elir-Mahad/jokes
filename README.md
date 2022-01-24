@@ -58,8 +58,8 @@ Under each bullet, i've attached related issues.
 - There will be a button in the drawer saying "show me a joke," which will request a random joke from the [endpoint here](https://v2.jokeapi.dev/joke/Any) and immediately trigger a push notification to show on the device that displays the joke's setup. Upon clicking the notification, the drawer will close, and a new stacked page will open on top of the root tab view that displays the joke's delivery/punchline. Refer to [issue-number-4](https://github.com/Elir-Mahad/jokes/issues/4) and [issue-number-5](https://github.com/Elir-Mahad/jokes/issues/5)
 
 - Please upload your project to GitHub and share the link once completed. Refer to [issue-number-6](https://github.com/Elir-Mahad/jokes/issues/6)
-  - Here is the link to the expo snack site : 
-   - To view the site, download the expo go app, and scan the qr code.
+  - Here is the link to the expo snack site : https://snack.expo.dev/@mahad_codes/jokes-app
+   - To view the site, download the android expo go app, and scan the QR code.
 
 
 ### Assumptions:
@@ -69,3 +69,19 @@ _Since it was stated in the email, that no assistance or guidance will be offere
 1. Since expo and react navigation are being used, a react native [expo app](https://docs.expo.dev/get-started/create-a-new-app/) was chosen. 
 
 2. Since expo has been stated, [expo notifications](https://docs.expo.dev/versions/latest/sdk/notifications/#api) was used for the push notification.
+
+### Bugs and problems:
+
+Enviroment issues: 
+
+- The expo go app, does not function well and it is too slow. This makes development slow. 
+
+Bugs: 
+
+- There was a problem with how the data gets passed between screens. It is documented [here](https://github.com/Elir-Mahad/jokes/issues/7).
+
+- Currently, if the user clicks on the full joke button that’s in the drawer nav, it produces an error.
+Reason is not clear.  
+
+- When the user clicks the notification and they are redirected to the FullJoke page the expo.dev app disconnects from the mobile. The reason is not clear.  
+

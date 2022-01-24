@@ -88,6 +88,8 @@ const DrawerButton = (props) => {
 
   const navigation = useNavigation();
   //
+  const lastNotificationResponse = Notifications.useLastNotificationResponse();
+  //
   return (
     <DrawerContentScrollView {...props}>
       <DrawerItemList {...props} />

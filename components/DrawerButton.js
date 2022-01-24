@@ -79,6 +79,9 @@ const DrawerButton = (props) => {
     schedulePushNotification(jokeSetup, jokeDelivery);
   };
   //
+  const getJokeSendPush = () => {
+    //
+  };
   return (
     <DrawerContentScrollView {...props}>
       <DrawerItemList {...props} />

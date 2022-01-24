@@ -27,18 +27,39 @@ Some of our components are nested within other components, so let's breakdown wh
   
   - The **FullJoke** component displays the joke delivery. 
 
-### Success criteria:
+### My workflow:
 
-- [ ] Using Expo and React Navigation, build a basic app skeleton with two tabs on the bottom and a drawer that can be accessed on the left.
-- Each tabbed page can display text saying tab 1, tab2.
+For this project i used githubs kanban to manage issues, tasks, etc. Here is the project kanban 
 
-- [ ] There will be a button in the drawer saying "show me a joke," which will request a random joke from the endpoint here and immediately trigger a push notification to show on the device that displays the joke's setup. 
+I divided my time in the following order: 
 
-- [ ] Upon clicking the notification, the drawer will close, and a new stacked page will open on top of the root tab view that displays the joke's delivery/punchline. 
+1. Research on what the project entails and what tools i will need.
 
-- [ ] Please upload your project to GitHub and share the link once completed. 
+2. Write out issues and tasks based on what i assume the project entails.
+  - The research was continous and ongoing so i refined my issues and tasks whenever it seemed necessary. 
 
-- [ ] Bonus: Feel free to take this further in any way you see fit (e.g. filters, etc.).
+3. Coding out the project. You will notice that each task was upon completiton committed.
+
+
+### Test criteria:
+
+Below is the test criteria from the emai.
+
+Under each bullet, i've attached related issues. 
+- Inside each issue, you will see a list of tasks. 
+- For some the tasks, i've attached external links as resources for further perusal or review.
+
+- Using Expo and React Navigation, build a basic app skeleton. Refer to issue-number-1
+ 
+- Add two tabs on the bottom. Each tabbed page can display text saying tab 1, tab2. Refer to issue-number-2
+
+- Add a drawer that can be accessed on the left. Refer to issue-number-3
+ 
+- There will be a button in the drawer saying "show me a joke," which will request a random joke from the endpoint here and immediately trigger a push notification to show on the device that displays the joke's setup. Upon clicking the notification, the drawer will close, and a new stacked page will open on top of the root tab view that displays the joke's delivery/punchline. Refer to issue-number-4 and issue-number-5
+
+- Please upload your project to GitHub and share the link once completed. Refer to issue-number-6
+  - Here is the link to the expo snack site : 
+   - To view the site, download the expo go app, and scan the qr code.
 
 
 ### Assumptions:

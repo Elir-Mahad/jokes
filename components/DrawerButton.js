@@ -83,6 +83,11 @@ const DrawerButton = (props) => {
     getJoke();
     sendPush();
   };
+
+  //!------------------- User clicks push notification, gets redirected to full joke page
+
+  const navigation = useNavigation();
+  //
   return (
     <DrawerContentScrollView {...props}>
       <DrawerItemList {...props} />

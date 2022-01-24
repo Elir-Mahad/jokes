@@ -1,6 +1,6 @@
 # Jokes expo app
 
-I've separated the app components into 2 folders. The navigation folder contains the react navigations screens.The components folder contains all the non-navigation components. Here is a folder-based breakdown: 
+The app's components are separated into 2 folders. The navigation folder contains the react navigations screens.The components folder contains all the non-navigation components. Here is a folder-based breakdown: 
 
     App
     navigation
@@ -43,21 +43,21 @@ I divided my time in the following order:
 
 ### Test criteria:
 
-Below is the test criteria from the emai.
+Below is the test criteria from the email.
 
 Under each bullet, i've attached related issues. 
 - Inside each issue, you will see a list of tasks. 
 - For some the tasks, i've attached external links as resources for further perusal or review.
 
-- Using Expo and React Navigation, build a basic app skeleton. Refer to issue-number-1
+- Using Expo and React Navigation, build a basic app skeleton. Refer to [issue-number-1](https://github.com/Elir-Mahad/jokes/issues/1)
  
-- Add two tabs on the bottom. Each tabbed page can display text saying tab 1, tab2. Refer to issue-number-2
+- Add two tabs on the bottom. Each tabbed page can display text saying tab 1, tab2. Refer to [issue-number-2](https://github.com/Elir-Mahad/jokes/issues/2)
 
-- Add a drawer that can be accessed on the left. Refer to issue-number-3
+- Add a drawer that can be accessed on the left. Refer to [issue-number-3](https://github.com/Elir-Mahad/jokes/issues/3)
  
-- There will be a button in the drawer saying "show me a joke," which will request a random joke from the endpoint here and immediately trigger a push notification to show on the device that displays the joke's setup. Upon clicking the notification, the drawer will close, and a new stacked page will open on top of the root tab view that displays the joke's delivery/punchline. Refer to issue-number-4 and issue-number-5
+- There will be a button in the drawer saying "show me a joke," which will request a random joke from the [endpoint here](https://v2.jokeapi.dev/joke/Any) and immediately trigger a push notification to show on the device that displays the joke's setup. Upon clicking the notification, the drawer will close, and a new stacked page will open on top of the root tab view that displays the joke's delivery/punchline. Refer to [issue-number-4](https://github.com/Elir-Mahad/jokes/issues/4) and [issue-number-5](https://github.com/Elir-Mahad/jokes/issues/5)
 
-- Please upload your project to GitHub and share the link once completed. Refer to issue-number-6
+- Please upload your project to GitHub and share the link once completed. Refer to [issue-number-6](https://github.com/Elir-Mahad/jokes/issues/6)
   - Here is the link to the expo snack site : 
    - To view the site, download the expo go app, and scan the qr code.
 

@@ -90,6 +90,15 @@ const DrawerButton = (props) => {
   //
   const lastNotificationResponse = Notifications.useLastNotificationResponse();
   //
+  useEffect(() => {
+    if (lastNotificationResponse) {
+      navigation.navigate("Full Joke", {
+        set: jokeSetup,
+        del: jokeDelivery,
+      });
+    }
+  }, [navigation, lastNotificationResponse]);
+  //
   return (
     <DrawerContentScrollView {...props}>
       <DrawerItemList {...props} />

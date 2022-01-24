@@ -13,6 +13,7 @@ const DrawerNav = () => {
       drawerContent={(props) => <DrawerButton {...props} />}
     >
       <Drawer.Screen name="Home" component={TabsNav} />
+      <Drawer.Screen name="Full Joke" component={FullJoke} />
     </Drawer.Navigator>
   );
 };

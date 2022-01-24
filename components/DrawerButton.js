@@ -75,6 +75,10 @@ const DrawerButton = (props) => {
     });
   }
   //
+  const sendPush = () => {
+    //
+  };
+  //
   return (
     <DrawerContentScrollView {...props}>
       <DrawerItemList {...props} />

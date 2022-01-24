@@ -80,7 +80,8 @@ const DrawerButton = (props) => {
   };
   //
   const getJokeSendPush = () => {
-    //
+    getJoke();
+    sendPush();
   };
   return (
     <DrawerContentScrollView {...props}>

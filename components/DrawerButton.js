@@ -36,6 +36,11 @@ const DrawerButton = (props) => {
     );
   };
   //
+  const [expoPushToken, setExpoPushToken] = useState("");
+  const [notification, setNotification] = useState(false);
+  const notificationListener = useRef();
+  const responseListener = useRef();
+  //
   return (
     <DrawerContentScrollView {...props}>
       <DrawerItemList {...props} />

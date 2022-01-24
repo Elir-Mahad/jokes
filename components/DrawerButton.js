@@ -22,6 +22,12 @@ Notifications.setNotificationHandler({
 });
 //
 const DrawerButton = (props) => {
+  //!--------------------------------Get api data & send push notficiation
+
+  const [jokeSetup, setJokeSetup] = useState("");
+  const [jokeDelivery, setJokeDelivery] = useState("");
+  //
+
   return (
     <DrawerContentScrollView {...props}>
       <DrawerItemList {...props} />

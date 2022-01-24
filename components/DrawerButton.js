@@ -13,6 +13,14 @@ import * as Notifications from "expo-notifications";
 //
 import { useNavigation } from "@react-navigation/native";
 //
+Notifications.setNotificationHandler({
+  handleNotification: async () => ({
+    shouldShowAlert: true,
+    shouldPlaySound: false,
+    shouldSetBadge: false,
+  }),
+});
+//
 const DrawerButton = (props) => {
   return (
     <DrawerContentScrollView {...props}>

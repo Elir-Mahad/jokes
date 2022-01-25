@@ -1,18 +1,18 @@
 # Jokes expo app
 
-The app's components are separated into 2 folders. The navigation folder contains the react navigations screens.The components folder contains all the non-navigation components. Here is a folder-based breakdown: 
+The app's components are separated into 2 folders. The navigation folder contains the react navigations screens. The components folder contains all the non-navigation components. Here is a folder-based breakdown: 
 
     App
     navigation
-     - DrawerNave
-     - TabsNave
+     - DrawerNav
+     - TabsNav
     components
      - DrawerButton
      - Tab1
      - Tab2
      - FullJoke
 
-Some of our components are nested within other components, so let's breakdown what the component hierarchy would look like. This will help us better understand the flow of data through the application.
+Some of the components are nested within other components, so let's breakdown what the component hierarchy looks like. This will help us better understand the flow of data through the application.
 
 ![component hiearchy](https://user-images.githubusercontent.com/50357549/150844685-aa443f66-7481-4606-b467-99b980e55350.png)
 
@@ -29,14 +29,14 @@ Some of our components are nested within other components, so let's breakdown wh
 
 ### My workflow:
 
-For this project i used githubs kanban to manage issues, tasks, etc. Here is the project kanban 
+For this project i used githubs kanban to manage issues, tasks, etc. Here is the project [kanban](https://github.com/Elir-Mahad/jokes/projects/1) 
 
 I divided my time in the following order: 
 
 1. Research on what the project entails and what tools i will need.
 
 2. Write out issues and tasks based on what i assume the project entails.
-  - The research was continous and ongoing so i refined my issues and tasks whenever it seemed necessary. 
+  - The research was continous so i refined my issues and tasks whenever it seemed necessary. 
 
 3. Coding out the project. You will notice that each task was upon completiton committed.
 
@@ -46,8 +46,10 @@ I divided my time in the following order:
 Below is the test criteria from the email.
 
 Under each bullet, i've attached related issues. 
-- Inside each issue, you will see a list of tasks. 
-- For some the tasks, i've attached external links as resources for further perusal or review.
+
+Inside each issue, you will see a list of tasks. 
+
+For some the tasks, i've attached external links as resources for further perusal or review.
 
 - Using Expo and React Navigation, build a basic app skeleton. Refer to [issue-number-1](https://github.com/Elir-Mahad/jokes/issues/1)
  
@@ -78,10 +80,10 @@ Enviroment issues:
 
 Bugs: 
 
-- There was a problem with how the data gets passed between screens. It is documented [here](https://github.com/Elir-Mahad/jokes/issues/7).
+- There was a bug with how the data gets passed between screens. It is documented [here](https://github.com/Elir-Mahad/jokes/issues/7).
 
 - Currently, if the user clicks on the full joke button that’s in the drawer nav, it produces an error.
 Reason is not clear.  
 
-- When the user clicks the notification and they are redirected to the FullJoke page the expo.dev app disconnects from the mobile. The reason is not clear.  
+- When the user clicks the notification and they are redirected to the FullJoke page, the expo.dev app shows a warning that it has disconnected from the mobile. The reason is not clear.  
 

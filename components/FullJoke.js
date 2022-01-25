@@ -6,7 +6,7 @@ const FullJoke = ({ route }) => {
   const punchLineText = route.params.del;
   return (
     <View>
-      <Text>Full Joke cheaa</Text>
+      <Text>Full Joke</Text>
       <Text>{setUpText}</Text>
       <Text>{punchLineText}</Text>
     </View>

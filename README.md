@@ -40,16 +40,23 @@ I divided my time in the following order:
 
 3. Coding out the project. You will notice that each task was upon completiton committed.
 
+### Finding listed resources
+
+Inside each issue, you will see a list of tasks. 
+
+For some of the tasks, i've attached external links as resources for further perusal or review.
+
+To find the resources, you can read the issues to see all the resources.
+
+Alternatively, you can look at the commit log. Each commit that has a comment, will have an issue shared in the comment. That issue will contain the resources for that specific commit.
+
+![commit-log](https://user-images.githubusercontent.com/50357549/151001180-1df0149f-09bc-4781-88e1-46a8f4f089d3.png)
 
 ### Test criteria:
 
 Below is the test criteria from the email.
 
 Under each bullet, i've attached related issues. 
-
-Inside each issue, you will see a list of tasks. 
-
-For some the tasks, i've attached external links as resources for further perusal or review.
 
 - Using Expo and React Navigation, build a basic app skeleton. Refer to [issue-number-1](https://github.com/Elir-Mahad/jokes/issues/1)
  
